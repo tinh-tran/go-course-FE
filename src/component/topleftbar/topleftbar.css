@@ -1,0 +1,35 @@
+.menuContent .item {
+  height: 60px;
+  line-height: 60px;
+  font-size: 12px;
+  cursor: pointer;
+  padding-left: 12px;
+  position: relative;
+}
+
+.menuContent .item a {
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 0 16px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  height: 60px;
+  transition: all 0.1s;
+}
+
+.menuContent .item i {
+  position: absolute;
+  right: 16px;
+  top: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+}
+
+.menuContent .item .group {
+  font-size: 20px;
+}
+
+.menuContent .item a:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+}

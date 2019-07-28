@@ -1,0 +1,1 @@
+export const STORE_API_URL_BASE = 'http://locahost:1234';

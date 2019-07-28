@@ -1,0 +1,26 @@
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 400px;
+    line-height: 400px;
+    background: #364d79;
+    overflow: hidden;
+  }
+  #barcarousel .ant-menu-item .ant-menu-item-active {
+    height: 400px !important;
+  }
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }
+  
+  #barcarousel {
+    box-shadow: 0 2px 24px 0 rgba(0, 5, 4, 0.8);
+  }
+#barcarousel  .slider{
+  object-fit: contain;
+  height:400px;
+}
+.slider img {
+  width: 100%;
+  height:100%;
+  object-fit: contain;
+}

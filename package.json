@@ -1,0 +1,84 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.10.3",
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "23.6.0",
+    "babel-loader": "8.0.4",
+    "babel-plugin-import": "^1.11.0",
+    "babel-preset-react-app": "^3.1.2",
+    "babel-runtime": "^6.26.0",
+    "classnames": "^2.2.6",
+    "css-loader": "^1.0.0",
+    "draftjs-to-html": "^0.8.4",
+    "jodit-react": "^1.0.17",
+    "moment": "^2.22.2",
+    "nprogress": "^0.2.0",
+    "primeflex": "^1.0.0-rc.1",
+    "primeicons": "^1.0.0-beta.10",
+    "primereact": "^2.0.0-beta.8",
+    "react": "^16.5.2",
+    "react-ckeditor-component": "^1.1.0",
+    "react-dom": "^16.5.2",
+    "react-draft-wysiwyg": "^1.12.13",
+    "react-modal": "^3.6.1",
+    "react-pdf": "^3.0.5",
+    "react-quill": "^1.3.2",
+    "react-redux": "^5.0.7",
+    "react-render-html": "^0.6.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "2.0.4",
+    "react-stripe-checkout": "^2.6.3",
+    "react-stripe-elements": "^2.0.1",
+    "react-table-filter": "^1.1.3",
+    "react-transition-group": "^2.5.0",
+    "react-validation": "^3.0.7",
+    "reactstrap": "^6.5.0",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0",
+    "save": "^2.3.2",
+    "style-loader": "^0.23.1",
+    "sweetalert2": "^7.28.12",
+    "validator": "^10.8.0",
+    "video.js": "^7.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "proxy": "http://180.16.10.10:8081",
+  "babel": {
+    "presets": [
+      "react-app"
+    ],
+    "plugins": [
+      [
+        "import",
+        {
+          "libraryName": "antd",
+          "libraryDirectory": "es",
+          "style": "css"
+        }
+      ]
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
