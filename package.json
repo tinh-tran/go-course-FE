@@ -47,7 +47,7 @@
     "save": "^2.3.2",
     "style-loader": "^0.23.1",
     "sweetalert2": "^7.28.12",
-    "validator": "^10.8.0",
+    "validator": "^13.7.0",
     "video.js": "^7.2.4"
   },
   "scripts": {
